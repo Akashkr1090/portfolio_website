@@ -1,0 +1,506 @@
+.myskills{
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+.skillsinformation{
+    position: relative;
+    background-color: white;
+    width: 60rem;
+    left: 100px;
+}
+.sillsParameter{
+    position: relative;
+    background-color: white;
+    width: 46rem;
+    left: 100px;
+    /* width: 37%; */
+}
+
+.range{
+    width: 50rem;
+    width: 40rem;
+    height: 4px;
+    background-color:rgb(207, 215, 222)
+}
+
+/* Front end */
+.rangeColor1{
+    background-color: red;
+    width: 37rem;
+    height: 4px;
+}
+.rangeColor2{
+    background-color: rgb(31, 169, 255);
+    width: 33rem;
+    height: 4px;
+}
+.rangeColor3{
+    background-color: rgb(255, 204, 0);
+    width: 31rem;
+    height: 4px;
+}
+
+/* Back end */
+.rangeColor4{
+    background-color: rgb(22, 224, 250);
+    width: 15rem;
+    height: 4px;
+}
+.rangeColor5{
+    background-color: rgb(16, 175, 16);
+    width: 25rem;
+    height: 4px;
+}
+.frontEnd span{
+    position: relative;
+    color: #00bda5;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.backEnd span{
+    color: #00bda5;
+    font-size: 35px;
+}
+.language{
+    font-size: 20px;
+}
+
+/* responsive */
+@media (max-width:1802px){
+    .skillsinformation{
+        width: 50rem;
+    }
+}
+
+@media (max-width:1642px){
+    .sillsParameter{
+        margin-right: 150px;
+        width: 28rem;
+    }
+
+    .range{
+        width: 30rem;
+        height: 4px;
+        background-color:rgb(207, 215, 222)
+    }
+
+    /* Front end */
+.rangeColor1{
+    background-color: red;
+    width: 26rem;
+    height: 4px;
+}
+.rangeColor2{
+    background-color: rgb(31, 169, 255);
+    width: 24rem;
+    height: 4px;
+}
+.rangeColor3{
+    background-color: rgb(255, 204, 0);
+    width: 22rem;
+    height: 4px;
+}
+
+/* Back end */
+.rangeColor4{
+    background-color: rgb(22, 224, 250);
+    width: 18rem;
+    height: 4px;
+}
+.rangeColor5{
+    background-color: rgb(16, 175, 16);
+    width: 20rem;
+    height: 4px;
+}
+}
+
+@media (max-width:1508px){
+    .skillsinformation{
+        width: 40rem;
+    }
+}
+
+@media (max-width:1340px){
+    .sillsParameter{
+        position: relative;
+        margin-left: -20px;
+        width: 24rem;
+    }
+    .skillsinformation{
+        width: 36rem;
+    }
+}
+
+
+
+@media (max-width:1210px){
+    .range{
+        width: 24rem;
+        height: 4px;
+        background-color:rgb(207, 215, 222)
+    }
+
+    /* Front end */
+.rangeColor1{
+    background-color: red;
+    width: 22rem;
+    height: 4px;
+}
+.rangeColor2{
+    background-color: rgb(31, 169, 255);
+    width: 20rem;
+    height: 4px;
+}
+.rangeColor3{
+    background-color: rgb(255, 204, 0);
+    width: 18rem;
+    height: 4px;
+}
+
+/* Back end */
+.rangeColor4{
+    background-color: rgb(22, 224, 250);
+    width: 16rem;
+    height: 4px;
+}
+.rangeColor5{
+    background-color: rgb(16, 175, 16);
+    width: 17rem;
+    height: 4px;
+}
+
+.sillsParameter{
+    width: 20rem;
+}
+
+.skillsinformation{
+    width: 33rem;
+}
+}
+
+@media (max-width:1083px){
+    .myskills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .range{
+        width: 52rem;
+        height: 4px;
+        background-color:rgb(207, 215, 222)
+    }
+
+    /* Front end */
+.rangeColor1{
+    background-color: red;
+    width: 49rem;
+    height: 4px;
+}
+.rangeColor2{
+    background-color: rgb(31, 169, 255);
+    width: 44rem;
+    height: 4px;
+}
+.rangeColor3{
+    background-color: rgb(255, 204, 0);
+    width: 40rem;
+    height: 4px;
+}
+
+/* Back end */
+.rangeColor4{
+    background-color: rgb(22, 224, 250);
+    width: 35rem;
+    height: 4px;
+}
+.rangeColor5{
+    background-color: rgb(16, 175, 16);
+    width: 37rem;
+    height: 4px;
+}
+
+.sillsParameter{
+    position: relative;
+    margin-left: 30px;
+    /* width: 50rem; */
+}
+
+.skillsinformation{
+    width: 54rem;
+}
+}
+
+@media (max-width:990px){
+    .sillsParameter{
+        margin-left: -30px;
+    }
+    .skillsinformation{
+        margin-left: -30px;
+    }
+}
+
+@media (max-width:960px){
+.range{
+    width: 42rem;
+    height: 4px;
+    background-color:rgb(207, 215, 222)
+}
+
+    /* Front end */
+.rangeColor1{
+    background-color: red;
+    width: 39rem;
+    height: 4px;
+}
+.rangeColor2{
+    background-color: rgb(31, 169, 255);
+    width: 34rem;
+    height: 4px;
+}
+.rangeColor3{
+    background-color: rgb(255, 204, 0);
+    width: 30rem;
+    height: 4px;
+}
+
+/* Back end */
+.rangeColor4{
+    background-color: rgb(22, 224, 250);
+    width: 25rem;
+    height: 4px;
+}
+.rangeColor5{
+    background-color: rgb(16, 175, 16);
+    width: 27rem;
+    height: 4px;
+}
+
+.skillsinformation{
+    width: 43rem;
+}
+}
+
+@media (max-width:780px){
+    .range{
+        width: 32rem;
+        height: 4px;
+        background-color:rgb(207, 215, 222)
+    }
+    
+        /* Front end */
+    .rangeColor1{
+        background-color: red;
+        width: 29rem;
+        height: 4px;
+    }
+    .rangeColor2{
+        background-color: rgb(31, 169, 255);
+        width: 24rem;
+        height: 4px;
+    }
+    .rangeColor3{
+        background-color: rgb(255, 204, 0);
+        width: 20rem;
+        height: 4px;
+    }
+    
+    /* Back end */
+    .rangeColor4{
+        background-color: rgb(22, 224, 250);
+        width: 15rem;
+        height: 4px;
+    }
+    .rangeColor5{
+        background-color: rgb(16, 175, 16);
+        width: 17rem;
+        height: 4px;
+    }
+
+    .skillsinformation{
+        width: 33rem;
+    }
+
+}
+
+@media (max-width:615px){
+    .range{
+        width: 25rem;
+        height: 4px;
+        background-color:rgb(207, 215, 222)
+    }
+    
+        /* Front end */
+    .rangeColor1{
+        background-color: red;
+        width: 24rem;
+        height: 4px;
+    }
+    .rangeColor2{
+        background-color: rgb(31, 169, 255);
+        width: 20rem;
+        height: 4px;
+    }
+    .rangeColor3{
+        background-color: rgb(255, 204, 0);
+        width: 16rem;
+        height: 4px;
+    }
+    
+    /* Back end */
+    .rangeColor4{
+        background-color: rgb(22, 224, 250);
+        width: 12rem;
+        height: 4px;
+    }
+    .rangeColor5{
+        background-color: rgb(16, 175, 16);
+        width: 15rem;
+        height: 4px;
+    }
+
+    .skillsinformation{
+        width: 26rem;
+    }
+
+}
+
+@media (max-width:510px){
+    .range{
+        width: 20rem;
+        height: 4px;
+        background-color:rgb(207, 215, 222)
+    }
+    
+        /* Front end */
+    .rangeColor1{
+        background-color: red;
+        width: 19rem;
+        height: 4px;
+    }
+    .rangeColor2{
+        background-color: rgb(31, 169, 255);
+        width: 17rem;
+        height: 4px;
+    }
+    .rangeColor3{
+        background-color: rgb(255, 204, 0);
+        width: 15rem;
+        height: 4px;
+    }
+    
+    /* Back end */
+    .rangeColor4{
+        background-color: rgb(22, 224, 250);
+        width: 10rem;
+        height: 4px;
+    }
+    .rangeColor5{
+        background-color: rgb(16, 175, 16);
+        width: 13rem;
+        height: 4px;
+    }
+
+    .skillsinformation{
+        width: 20rem;
+    }
+
+}
+
+@media (max-width:425px){
+    .range{
+        width: 15rem;
+        height: 4px;
+        background-color:rgb(207, 215, 222)
+    }
+    
+        /* Front end */
+    .rangeColor1{
+        background-color: red;
+        width: 14rem;
+        height: 4px;
+    }
+    .rangeColor2{
+        background-color: rgb(31, 169, 255);
+        width: 12rem;
+        height: 4px;
+    }
+    .rangeColor3{
+        background-color: rgb(255, 204, 0);
+        width: 11rem;
+        height: 4px;
+    }
+    
+    /* Back end */
+    .rangeColor4{
+        background-color: rgb(22, 224, 250);
+        width: 8rem;
+        height: 4px;
+    }
+    .rangeColor5{
+        background-color: rgb(16, 175, 16);
+        width: 9rem;
+        height: 4px;
+    }
+
+    .skillsinformation{
+        width: 15rem;
+    }
+
+}
+@media (max-width:390px){
+    .sillsParameter{
+        width: 10rem;
+    }
+}
+
+@media (max-width:343px){
+    .sillsParameter{
+        width: 7rem;
+    }
+
+    .range{
+        width: 11rem;
+        height: 4px;
+        background-color:rgb(207, 215, 222)
+    }
+    
+        /* Front end */
+    .rangeColor1{
+        background-color: red;
+        width: 9rem;
+        height: 4px;
+    }
+    .rangeColor2{
+        background-color: rgb(31, 169, 255);
+        width: 8rem;
+        height: 4px;
+    }
+    .rangeColor3{
+        background-color: rgb(255, 204, 0);
+        width: 7rem;
+        height: 4px;
+    }
+    
+    /* Back end */
+    .rangeColor4{
+        background-color: rgb(22, 224, 250);
+        width: 6.5rem;
+        height: 4px;
+    }
+    .rangeColor5{
+        background-color: rgb(16, 175, 16);
+        width: 7rem;
+        height: 4px;
+    }
+
+    .skillsinformation{
+        width: 15rem;
+    }
+}
+
+@media (max-width:317px){
+    .skillsinformation{
+        width: 12rem;
+    }
+}

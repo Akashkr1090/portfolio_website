@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    position: relative;
+    /* overflow: hidden; */
+    width: 100%;
+    max-width: 100%;
+    z-index: 100;
+}
+
+.nav-links a {
+    color: black;
+
+}
+.menu li a:hover{
+    color: #00bda5;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+    margin-left: 80px;
+}
+.logo:hover{
+    color: #00bda5;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li:hover{
+    text-decoration: underline;
+    
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+#services {
+    position: relative;
+}
+
+.dropdown {
+    background-color: #eea60b;
+    padding: 1em 0;
+    position: absolute;
+    /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+
+/* .dropdown li+li { */
+    /* margin-top: 10px; */
+/* } */
+
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+
+.dropdown li:hover {
+    background-color: #eea60b;
+}
+
+#services:hover .dropdown {
+    display: block;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox] {
+    display: none;
+}
+
+/* menu*/
+.hamburger {
+    cursor: pointer;
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* section menu*/
+.imageContainer{
+    color: #00bda5;
+    display: flex;
+    flex-direction: row;
+}
+.backgroundImage{
+    position: relative;
+    top:200px;
+    float: left;
+    width: 55%;
+    /* min-width: 900px; */
+    height: 50%;
+}
+
+.introduction{
+    /* z-index: 100; */
+    position: relative;
+    top: 200px;
+    left: 130px;
+    cursor:pointer;
+}
+.introduction h1{
+    font-size: 60px;
+}
+.Project{
+    color: black;
+}
+.horizontalLine{
+    position: relative;
+    z-index: 20000;
+    color: red;
+    background-color:black;
+    top: 80px;
+    width: auto;
+    height: 2px;
+}
+
+/* Responsive*/
+@media (max-width: 818px) {
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: white;
+        right: 0;
+        left: 0;
+        top: 70px;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        transition: 0.3s ease;
+    }
+
+    .menu li+li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(35%);
+    }
+}
+/* background image resopnsive */
+@media (max-width:1388px)
+{
+    .introduction h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:1194px)
+{
+    .introduction h1{
+        font-size: 40px;
+    }
+    .backgroundImage{
+        position: relative;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 600px;
+    }
+}
+
+@media (max-width:1079px)
+{
+    .introduction h1{
+        position: relative;
+        margin-top: -50px;
+    }
+}
+
+@media (max-width:989px)
+{
+    .imageContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .introduction{
+        width: 768px;
+    }
+    .introduction h1{
+        font-size: 67px;
+        display: inline;
+    }
+    .introduction h4{
+        font-size: 25px;
+        display: inline;
+    }
+    .introduction span{
+        font-size: 30px;
+    }
+    .introduction span span a{
+        font-size: 25px;
+        color: black;
+    }
+    .backgroundImage{
+        position: relative;
+        left: 100px;
+        width: 700px;
+    }
+}
+
+@media (max-width:891px)
+{
+    .introduction{
+        width: 620px;
+    }
+    .introduction h1{
+        font-size: 50px;
+    }
+    .introduction span span a{
+        font-size: 20px;
+    }
+    .backgroundImage{
+        width: 600px;
+    }
+}
+
+@media (max-width:751px)
+{
+    .introduction{
+        width: 520px;
+    }
+    .introduction h1{
+        font-size: 40px;
+    }
+    .introduction span span a{
+        font-size: 17px;
+    }
+    .backgroundImage{
+        width: 500px;
+    }
+
+}
+@media (max-width:651px)
+{
+    .introduction{
+        width: 450px;
+    }
+    .introduction h1{
+        font-size: 40px;
+    }
+    .introduction h4{
+        font-size: 20px;
+    }
+    .backgroundImage{
+        width: 420px;
+    }
+
+}
+
+@media (max-width:581px)
+{
+    .introduction{
+        width: 370px;
+    }
+    .introduction h1{
+        font-size: 33px;
+    }
+    .introduction h4{
+        font-size: 17px;
+    }
+    .backgroundImage{
+        position: relative;
+        left: 40px;
+        width: 380px;
+    }
+
+}
+
+@media (max-width:500px)
+{
+    .introduction{
+        position: relative;
+        left: 85px;
+        width: 310px;
+    }
+    .introduction h1{
+        font-size: 27px;
+    }
+    .introduction h4{
+        font-size: 15px;
+    }
+    .introduction span span a{
+        font-size: 15px;
+    }
+    .backgroundImage{
+        position: relative;
+        left: 40px;
+        width: 350px;
+    }
+
+}
+
+@media (max-width:440px)
+{
+    .backgroundImage{
+        width: 300px;
+    }
+}
+
+@media (max-width:395px)
+{
+    .introduction{
+        position: relative;
+        left: 50px;
+        width: 260px;
+    }
+    .introduction h1{
+        font-size: 24px;
+    }
+    .backgroundImage{
+        position: relative;
+        left: 10px;
+        width: 270px;
+    }
+}
+
+@media (max-width:330px)
+{
+    .introduction{
+        width: 230px;
+    }
+    .introduction h1{
+        font-size: 20px;
+    }
+    .backgroundImage{
+        width: 230px;
+    }
+}
+@media (max-width:290px)
+{
+    .introduction{
+        width: 200px;
+    }
+    .introduction h1{
+        font-size: 18px;
+    }
+    .introduction h4{
+        font-size: 15px;
+    }
+    .backgroundImage{
+        position: relative;
+        left: 1px;
+        width: 200px;
+    }
+}
+
+
+
+
+
+/* @media (max-width:1388px) */
+/* { */
+    /* .imageContainer{ */
+        /* display: flex; */
+        /* flex-direction: column; */
+    /* } */
+/* } */
