@@ -22,6 +22,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.contactInfo{
+    outline-style: solid;
+    outline-color: black;
+}
+
 .container .contactInfo div h2{
     text-align: center;
     
@@ -157,6 +163,7 @@ span.fontSizeBold{
 }
 
 #SubmitButton:hover{
+    outline-style: solid;
     color: black;
     background-color: #00bda5;
 }
