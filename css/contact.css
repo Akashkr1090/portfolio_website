@@ -48,6 +48,7 @@ span.infoDetail{
 .info li{
     list-style: none;
     display: flex;
+    padding: 0px 20px;
 }
 .fontSize{
     font-size: 20px;
