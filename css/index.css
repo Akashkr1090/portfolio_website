@@ -351,6 +351,9 @@ input[type=checkbox] {
     .backgroundImage{
         width: 300px;
     }
+    .logo{
+        margin-left: 30px;
+    }
 }
 
 @media (max-width:395px)
@@ -367,6 +370,9 @@ input[type=checkbox] {
         position: relative;
         left: 10px;
         width: 270px;
+    }
+    .logo{
+        margin-left: 30px;
     }
 }
 
